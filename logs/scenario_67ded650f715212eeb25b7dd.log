@@ -1,0 +1,3 @@
+[2025-03-22T15:25:04.306Z] Scenario created: Test Scenario, Type: Individual
+[2025-03-22T15:25:04.351Z] Event added: income, Amount: 20000, Start Year: 2025
+[2025-03-22T15:25:04.385Z] Event added: expense, Amount: 15000, Start Year: 2026

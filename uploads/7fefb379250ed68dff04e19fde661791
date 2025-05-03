@@ -1,0 +1,93 @@
+federalTaxBrackets:
+  - bracket: "10%"
+    rate: 0.10
+  - bracket: "12%"
+    rate: 0.12
+  - bracket: "22%"
+    rate: 0.22
+  - bracket: "24%"
+    rate: 0.24
+  - bracket: "32%"
+    rate: 0.32
+  - bracket: "35%"
+    rate: 0.35
+  - bracket: "37%"
+    rate: 0.37
+
+stateTaxes:
+  - state: "New York"
+    brackets:
+      - bracket: "4%"
+        rate: 0.04
+      - bracket: "4.5%"
+        rate: 0.045
+      - bracket: "5.25%"
+        rate: 0.0525
+      - bracket: "5.5%"
+        rate: 0.055
+      - bracket: "6%"
+        rate: 0.06
+      - bracket: "6.85%"
+        rate: 0.0685
+      - bracket: "9.65%"
+        rate: 0.0965
+      - bracket: "10.3%"
+        rate: 0.103
+      - bracket: "10.9%"
+        rate: 0.109
+  - state: "New Jersey"
+    brackets:
+      - bracket: "1.4%"
+        rate: 0.014
+      - bracket: "1.75%"
+        rate: 0.0175
+      - bracket: "3.5%"
+        rate: 0.035
+      - bracket: "5.525%"
+        rate: 0.05525
+      - bracket: "6.37%"
+        rate: 0.0637
+      - bracket: "8.97%"
+        rate: 0.0897
+      - bracket: "10.75%"
+        rate: 0.1075
+  - state: "Connecticut"
+    brackets:
+      - bracket: "2%"
+        rate: 0.02
+      - bracket: "4%"
+        rate: 0.04
+      - bracket: "5%"
+        rate: 0.05
+      - bracket: "5.5%"
+        rate: 0.055
+      - bracket: "6%"
+        rate: 0.06
+      - bracket: "6.5%"
+        rate: 0.065
+      - bracket: "6.99%"
+        rate: 0.0699
+
+capitalGainsTax:
+  longTermRate: 0.15
+  shortTermRate: 0.37
+
+  thresholds_0_percent:
+    single: 48350
+    married_filing_separately: 48350
+    married_filing_jointly: 96700
+    head_of_household: 64350
+
+  thresholds_15_percent:
+    single: 518900
+    married_filing_separately: 291850
+    married_filing_jointly: 583750
+    head_of_household: 551350
+
+  special_rates:
+    collectibles: 0.28
+    section_1202_qsbs: 0.28
+    unrecaptured_section_1250: 0.25
+
+socialSecurityTax:
+  taxablePercentage: 0.85

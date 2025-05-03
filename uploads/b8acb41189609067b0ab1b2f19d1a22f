@@ -1,0 +1,19 @@
+
+federalTaxBrackets:
+  - bracket: "12%"
+    rate: 12
+  - bracket: "22%"
+    rate: 22
+stateTaxes:
+  - state: "New York"
+    brackets:
+      - bracket: "6%"
+        rate: 6
+      - bracket: "8%"
+        rate: 8
+capitalGainsTax:
+  longTermRate: 18
+  shortTermRate: 28
+socialSecurityTax:
+  taxablePercentage: 90
+    

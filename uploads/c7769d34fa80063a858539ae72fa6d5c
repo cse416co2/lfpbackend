@@ -1,0 +1,16 @@
+
+      name: Imported Scenario
+      type: Individual
+      birthYear: 1990
+      lifeExpectancy: 85
+      financialGoal: 1000000
+      inflationAssumption: 2.5
+      spendingStrategy: Aggressive
+      withdrawalStrategy: Dynamic
+      rothConversionSettings:
+        enabled: true
+        startYear: 2025
+        endYear: 2045
+      RMDSettings:
+        enabled: true
+    

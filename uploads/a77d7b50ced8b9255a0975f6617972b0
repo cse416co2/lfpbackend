@@ -1,0 +1,81 @@
+standardDeduction:
+  single: 14600
+  married: 29200
+  qualifyingWidow: 29200
+
+federalTaxBrackets:
+  - bracket: "0-11600"
+    rate: 10
+  - bracket: "11601-47150"
+    rate: 12
+  - bracket: "47151-100525"
+    rate: 22
+  - bracket: "100526-191950"
+    rate: 24
+  - bracket: "191951-243725"
+    rate: 32
+  - bracket: "243726-609350"
+    rate: 35
+  - bracket: "609351+"
+    rate: 37
+
+stateTaxes:
+  - state: "New York"
+    brackets:
+      - bracket: "0-8500"
+        rate: 4.00
+      - bracket: "8501-11700"
+        rate: 4.50
+      - bracket: "11701-13900"
+        rate: 5.25
+      - bracket: "13901-21400"
+        rate: 5.85
+      - bracket: "21401-80650"
+        rate: 6.25
+      - bracket: "80651-215400"
+        rate: 6.85
+      - bracket: "215401-1077550"
+        rate: 9.65
+      - bracket: "1077551-5000000"
+        rate: 10.30
+      - bracket: "5000001+"
+        rate: 10.90
+  - state: "Connecticut"
+    brackets:
+      - bracket: "0-10000"
+        rate: 2.00
+      - bracket: "10001-50000"
+        rate: 4.50
+      - bracket: "50001-100000"
+        rate: 5.50
+      - bracket: "100001-200000"
+        rate: 6.00
+      - bracket: "200001-250000"
+        rate: 6.50
+      - bracket: "250001-500000"
+        rate: 6.90
+      - bracket: "500001+"
+        rate: 6.99
+  - state: "New Jersey"
+    brackets:
+      - bracket: "0-20000"
+        rate: 1.40
+      - bracket: "20001-35000"
+        rate: 1.75
+      - bracket: "35001-40000"
+        rate: 3.50
+      - bracket: "40001-75000"
+        rate: 5.53
+      - bracket: "75001-500000"
+        rate: 6.37
+      - bracket: "500001-1000000"
+        rate: 8.97
+      - bracket: "1000001+"
+        rate: 10.75
+
+capitalGainsTax:
+  longTermRate: 15
+  shortTermRate: 37
+
+socialSecurityTax:
+  taxablePercentage: 85

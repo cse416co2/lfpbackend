@@ -1,0 +1,5 @@
+[2025-03-22T15:30:09.234Z] Scenario created: Test Scenario, Type: Individual
+[2025-03-22T15:30:09.290Z] Investment added: Index Fund, Expected Return: 7%
+[2025-03-22T15:30:09.347Z] Event added: income, Amount: 50000, Start Year: 2025
+[2025-03-22T15:30:09.380Z] Monte Carlo simulation started with 10 iterations.
+[2025-03-22T15:30:09.588Z] Monte Carlo simulation completed. Success Probability: 0.00%

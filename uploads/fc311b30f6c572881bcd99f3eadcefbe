@@ -1,0 +1,260 @@
+rothConversionSettings:
+  enabled: true
+  startYear: 65
+  endYear: 75
+RMDSettings:
+  enabled: true
+_id:
+  buffer: !!binary Z/GEgNZ/TUM7BH1y
+user:
+  buffer: !!binary Z/GEZdZ/TUM7BH1u
+name: Retirement Plan 2.0
+type: Individual
+birthYear: 1980
+lifeExpectancy: 85
+financialGoal: 500
+investmentTypes:
+  - investment:
+      _id:
+        buffer: !!binary Z/GMs0wSpP79365d
+      name: a
+      description: a
+      expectedReturn: '0.2'
+      expenseRatio: 0.3
+      dividendYield: 25
+      taxability: taxable
+      accountType: after-tax
+      createdAt: 2025-04-05T20:04:03.937Z
+      updatedAt: 2025-04-05T20:04:03.937Z
+      __v: 0
+    value: 202002223700
+    _id:
+      buffer: !!binary Z/GMs0wSpP79365f
+events:
+  - isJointIncome: false
+    isJointExpense: false
+    primaryOwnerShare: 0
+    _id:
+      buffer: !!binary Z/GM6EwSpP79366M
+    type: expense
+    scenario:
+      buffer: !!binary Z/GEgNZ/TUM7BH1y
+    startYear: 2026
+    duration: 50
+    amount: 19000000000
+    expectedChange: 0.8
+    inflationAdjusted: true
+    discretionary: false
+    assetAllocation: []
+    createdAt: 2025-04-05T20:04:56.950Z
+    updatedAt: 2025-04-06T12:49:00.008Z
+    __v: 0
+  - isJointIncome: false
+    isJointExpense: false
+    primaryOwnerShare: 0
+    _id:
+      buffer: !!binary Z/J4vgs8x9BHY/3M
+    type: investment
+    scenario:
+      buffer: !!binary Z/GEgNZ/TUM7BH1y
+    startYear: 2026
+    duration: 20
+    amount: 2000000000
+    expectedChange: 0.8
+    inflationAdjusted: true
+    discretionary: false
+    assetAllocation:
+      - investment:
+          buffer: !!binary Z/GMs0wSpP79365d
+        percentage: 100
+        _id:
+          buffer: !!binary Z/J4vgs8x9BHY/3N
+    createdAt: 2025-04-06T12:51:10.196Z
+    updatedAt: 2025-04-06T12:51:10.196Z
+    __v: 0
+  - isJointIncome: false
+    isJointExpense: false
+    primaryOwnerShare: 0
+    _id:
+      buffer: !!binary Z/KS5xuUSazmHoGs
+    type: investment
+    scenario:
+      buffer: !!binary Z/GEgNZ/TUM7BH1y
+    startYear: 2029
+    duration: 10
+    amount: 123000
+    expectedChange: 0.8
+    inflationAdjusted: true
+    discretionary: false
+    assetAllocation:
+      - investment:
+          buffer: !!binary Z/GMs0wSpP79365d
+        percentage: 100
+        _id:
+          buffer: !!binary Z/KS5xuUSazmHoGt
+    createdAt: 2025-04-06T14:42:47.518Z
+    updatedAt: 2025-04-06T14:42:47.518Z
+    __v: 0
+  - isJointIncome: false
+    isJointExpense: false
+    primaryOwnerShare: 0
+    _id:
+      buffer: !!binary Z/fqafgyzxfQXt05
+    type: investment
+    scenario:
+      buffer: !!binary Z/GEgNZ/TUM7BH1y
+    startYear: 2030
+    duration: 10
+    amount: 2053000
+    expectedChange: 2
+    inflationAdjusted: true
+    discretionary: false
+    assetAllocation:
+      - investment:
+          buffer: !!binary Z/GMs0wSpP79365d
+        percentage: 100
+        _id:
+          buffer: !!binary Z/fqafgyzxfQXt06
+    createdAt: 2025-04-10T15:57:29.935Z
+    updatedAt: 2025-04-10T15:57:29.935Z
+    __v: 0
+  - isJointIncome: false
+    isJointExpense: false
+    primaryOwnerShare: 0
+    _id:
+      buffer: !!binary Z/fqofgyzxfQXt2M
+    type: investment
+    scenario:
+      buffer: !!binary Z/GEgNZ/TUM7BH1y
+    startYear: 2030
+    duration: 10
+    amount: 200000000000
+    expectedChange: 1
+    inflationAdjusted: true
+    discretionary: true
+    assetAllocation:
+      - investment:
+          buffer: !!binary Z/GMs0wSpP79365d
+        percentage: 100
+        _id:
+          buffer: !!binary Z/fqofgyzxfQXt2N
+    createdAt: 2025-04-10T15:58:25.390Z
+    updatedAt: 2025-04-10T15:58:25.390Z
+    __v: 0
+  - isJointIncome: false
+    isJointExpense: false
+    primaryOwnerShare: 0
+    _id:
+      buffer: !!binary Z/f3Ib3FyV/rfRTZ
+    type: investment
+    scenario:
+      buffer: !!binary Z/GEgNZ/TUM7BH1y
+    startYear: 2040
+    duration: 70
+    amount: 5000
+    expectedChange: 20
+    inflationAdjusted: true
+    discretionary: true
+    assetAllocation:
+      - investment:
+          buffer: !!binary Z/GMs0wSpP79365d
+        percentage: 100
+        _id:
+          buffer: !!binary Z/f3Ib3FyV/rfRTa
+    createdAt: 2025-04-10T16:51:45.324Z
+    updatedAt: 2025-04-10T16:51:45.324Z
+    __v: 0
+  - isJointIncome: false
+    isJointExpense: false
+    primaryOwnerShare: 0
+    _id:
+      buffer: !!binary Z/f3YL3FyV/rfRVZ
+    type: investment
+    scenario:
+      buffer: !!binary Z/GEgNZ/TUM7BH1y
+    startYear: 2110
+    duration: 1
+    amount: 20000
+    expectedChange: 25
+    inflationAdjusted: true
+    discretionary: true
+    assetAllocation:
+      - investment:
+          buffer: !!binary Z/GMs0wSpP79365d
+        percentage: 100
+        _id:
+          buffer: !!binary Z/f3YL3FyV/rfRVa
+    createdAt: 2025-04-10T16:52:48.767Z
+    updatedAt: 2025-04-10T16:52:48.767Z
+    __v: 0
+  - isJointIncome: false
+    isJointExpense: false
+    primaryOwnerShare: 0
+    _id:
+      buffer: !!binary Z/f3lL3FyV/rfRXi
+    type: investment
+    scenario:
+      buffer: !!binary Z/GEgNZ/TUM7BH1y
+    startYear: 2109
+    duration: 1
+    amount: 20000
+    expectedChange: 2
+    inflationAdjusted: true
+    discretionary: true
+    assetAllocation:
+      - investment:
+          buffer: !!binary Z/GMs0wSpP79365d
+        percentage: 100
+        _id:
+          buffer: !!binary Z/f3lL3FyV/rfRXj
+    createdAt: 2025-04-10T16:53:40.426Z
+    updatedAt: 2025-04-10T16:53:40.426Z
+    __v: 0
+  - isJointIncome: false
+    isJointExpense: false
+    primaryOwnerShare: 0
+    _id:
+      buffer: !!binary Z/f5k79lWgZ1hqOP
+    type: investment
+    scenario:
+      buffer: !!binary Z/GEgNZ/TUM7BH1y
+    startYear: 2109
+    duration: 1
+    amount: 200
+    expectedChange: 2
+    inflationAdjusted: false
+    discretionary: false
+    assetAllocation:
+      - investment:
+          buffer: !!binary Z/GMs0wSpP79365d
+        percentage: 100
+        _id:
+          buffer: !!binary Z/f5k79lWgZ1hqOQ
+    createdAt: 2025-04-10T17:02:11.306Z
+    updatedAt: 2025-04-10T17:03:33.281Z
+    __v: 0
+  - _id:
+      buffer: !!binary aA5vZKHD7WaHR8QO
+    type: income
+    scenario:
+      buffer: !!binary Z/GEgNZ/TUM7BH1y
+    startYear: 2026
+    duration: 30
+    amount: 100000000000
+    expectedChange: 0.7
+    inflationAdjusted: true
+    discretionary: false
+    assetAllocation: []
+    isJointIncome: true
+    isJointExpense: false
+    primaryOwnerShare: 0.9
+    createdAt: 2025-04-27T17:54:44.194Z
+    updatedAt: 2025-04-30T20:17:48.884Z
+    __v: 0
+inflationAssumption: 2.5
+spendingStrategy: Safe Withdrawal Rate
+withdrawalStrategy: RMD
+sharedWith: []
+createdAt: 2025-04-05T19:29:04.522Z
+updatedAt: 2025-04-27T17:54:44.261Z
+__v: 11

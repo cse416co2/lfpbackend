@@ -1,0 +1,8 @@
+[2025-04-06T18:33:30.064Z] Scenario created: Retirement Plan, Type: Individual
+[2025-04-06T18:34:18.375Z] Investment added: A, Expected Return: 12%
+[2025-04-06T18:34:39.479Z] Investment added: B, Expected Return: 23%
+[2025-04-06T18:35:03.217Z] Event added: income, Amount: 800, Start Year: 2025
+[2025-04-06T18:35:27.349Z] Event added: expense, Amount: 750, Start Year: 2025
+[2025-04-06T18:36:20.755Z] Event added: investment, Amount: 900, Start Year: 2025
+[2025-04-06T18:37:20.416Z] Event updated: income, Amount: 800000
+[2025-04-06T18:37:46.873Z] Event updated: expense, Amount: 700000

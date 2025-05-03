@@ -27,7 +27,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 const corsOptions = {
-  origin: "https://lifetimefinancialplanner.netlify.app/",
+  origin: "https://lifetimefinancialplanner.netlify.app",
   credentials: true,
 };
 

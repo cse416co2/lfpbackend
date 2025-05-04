@@ -23,15 +23,16 @@ app.get("/home", (req, res) => {
   });
 });
 
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-app.use(cookieParser());
 const corsOptions = {
   origin: "https://lifetimefinancialplanner.netlify.app",
   credentials: true,
 };
 
 app.use(cors(corsOptions));
+
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(cookieParser());
 
 const PORT = process.env.PORT || 5000;
 
